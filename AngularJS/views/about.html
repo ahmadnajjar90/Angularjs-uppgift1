@@ -1,0 +1,10 @@
+
+<div class="container d-flex mt-5">
+    <div ng-repeat="about in persons" class="d-flex border mr-3" style="width: 30%">
+        <img src="../images/{{ about.image }}" alt="" style="width: 50%" height="230px">
+        <div>
+            <h5>{{ about.title }}</h5>
+            <p>{{ about.text }}</p>
+        </div>
+    </div>
+</div>
