@@ -37,4 +37,16 @@ app.controller("myController2", function($scope) {
         { image: "person1.png", title: "Lorem Ipsum", text: "Lorem ipsum dolor sit amet.....Lorem ipsum dolor sit amet" },
         { image: "person1.png", title: "Lorem Ipsum", text: "Lorem ipsum dolor sit amet....." },
     ]
-})
+});
+
+
+app.controller("prisController", function($scope) {
+
+    $scope.month = function() {
+        $scope.pris = "  month for 100kr";
+    }
+
+    $scope.year = function() {
+        $scope.pris = "year for 1000kr";
+    }
+});
